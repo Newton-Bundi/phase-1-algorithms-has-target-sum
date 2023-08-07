@@ -1,7 +1,10 @@
 function hasTargetSum(array, target) {
-  // Write your algorithm here
+    for (const number of array) {
+    const complement = target - number;
+      if (array.includes(complement) == true){
+        return true;
+} else{ return false;
 }
-
 /* 
   Write the Big O time complexity of your function here
 */
