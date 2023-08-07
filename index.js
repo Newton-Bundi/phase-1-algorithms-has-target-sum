@@ -5,6 +5,8 @@ function hasTargetSum(array, target) {
         return true;
 } else{ return false;
 }
+}
+}
 /* 
   Write the Big O time complexity of your function here
 */
